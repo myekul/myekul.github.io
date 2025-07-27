@@ -1,0 +1,50 @@
+:root {
+    --background1: #0c142d;
+    --background2: #332944;
+    --banner: darkslateblue;
+}
+
+.medium {
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 130%;
+}
+
+.big {
+    width: 350px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 130%;
+}
+
+.myekul {
+    width: 48px;
+    height: auto;
+    filter: drop-shadow(0.5px 0 0 black)
+        /* Right shadow */
+        drop-shadow(-0.5px 0 0 black)
+        /* Left shadow */
+        drop-shadow(0 0.5px 0 black)
+        /* Bottom shadow */
+        drop-shadow(0 -0.5px 0 black);
+    padding: 0
+}
+
+body {
+    background: var(--background1);
+    color: darkgray
+        /* background-image:
+        radial-gradient(var(--background2) 19.2%, transparent 19.2%),
+        radial-gradient(var(--background2) 19.2%, transparent 19.2%);
+    background-position: 0px 0px, 15px 15px;
+    background-size: 30px 30px;
+    background-color: var(--background1); */
+}
+
+.textBlock {
+    white-space: normal;
+    max-width: 350px;
+    font-size: 14px;
+    padding: 10px 0
+}
