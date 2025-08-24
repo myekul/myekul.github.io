@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://myekul.github.io/shared-assets/styles.css">
     <link rel="stylesheet" href="https://myekul.github.io/shared-assets/myekul/myekul.css">
+    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/cuphead/styles.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://myekul.github.io/shared-assets/utils.js"></script>
 </head>
@@ -28,116 +29,88 @@
                     <img src="https://myekul.github.io/shared-assets/myekul/images/myekul.png"
                         style="height:250px;width:auto;padding-bottom:30px">
                 </div>
-                <div class="container" style="gap:60px">
+                <div id='resources'>
                     <div>
                         <div>
-                            <a href="https://myekul.github.io/myekuldex/">
-                                <div class="button medium"
-                                    style="font-weight:bold;font-size:150%;background-color: royalblue;color:white">
-                                    <div class="container" style="gap:10px">
-                                        <img src="https://myekul.github.io/myekuldex/images/favicon.png"
-                                            style="height:50px;width:auto">
-                                        <div>myekuldex</div>
-                                    </div>
-                                </div>
+                            <a href="https://myekul.github.io/myekuldex/"
+                                style="font-weight:bold;font-size:150%;background-color: royalblue;color:white">
+                                <img src="https://myekul.github.io/myekuldex/images/favicon.png"
+                                    style="height:50px;width:auto">
+                                <div>myekuldex</div>
                             </a>
-                            <div class="textBlock">...a website for appreciating Pokemon</div>
+                            <p>...a website for appreciating Pokemon</p>
                         </div>
                         <div>
-                            <a href="https://myekul.github.io/pikmin-place/">
-                                <div class="button medium"
-                                    style="font-weight:bold;font-size:160%;background-color: limegreen;color:white;text-shadow: 2px 2px 2px black;font-family:'pikmin'">
-                                    <div class="container" style="gap:10px">
-                                        <img src="https://myekul.github.io/pikmin-place/images/favicon.png"
-                                            style="height:50px;width:auto">
-                                        <div>Pikmin Place</div>
-                                    </div>
-                                </div>
+                            <a href="https://myekul.github.io/pikmin-place/"
+                                style="font-weight:bold;font-size:160%;background-color: limegreen;color:white;text-shadow: 2px 2px 2px black;font-family:'pikmin'">
+                                <img src="https://myekul.github.io/pikmin-place/images/favicon.png"
+                                    style="height:50px;width:auto">
+                                <div>Pikmin Place</div>
                             </a>
-                            <div class="textBlock">...a website for appreciating Pikmin</div>
+                            <p>...a website for appreciating Pikmin</p>
                         </div>
                         <div>
-                            <a href="https://myekul.github.io/roster-realm/">
-                                <div class="button medium" style="font-size:150%;font-family:'FOT';background-color: darkgray;">
-                                    <div class="container" style="gap:10px">
-                                        <img src="https://myekul.github.io/roster-realm/images/smash.png"
-                                            style="height:40px;width:auto">
-                                        <div>Roster Realm</div>
-                                    </div>
-                                </div>
+                            <a href="https://myekul.github.io/roster-realm/"
+                                style="font-size:150%;font-family:'FOT';background-color: darkgray;">
+                                <img src="https://myekul.github.io/roster-realm/images/smash.png"
+                                    style="height:40px;width:auto">
+                                <div>Roster Realm</div>
                             </a>
-                            <div class="textBlock">...a website for viewing Smash Bros. rosters across the series</div>
+                            <p>...a website for viewing Smash Bros. rosters across the series</p>
                         </div>
                     </div>
                     <div>
-                        <a href="https://myekul.github.io/combined-leaderboard/">
-                            <div class="button big cuphead" style="font-family:var(--font2)">
-                                <div class="container" style="gap:5px">
-                                    <img src="https://myekul.github.io/shared-assets/myekul/images/myekul.png"
-                                        class="myekul" style="height:80px;width:auto">
-                                    <div>
-                                        <div>COMBINED</div>
-                                        <div>LEADERBOARD</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="textBlock">...a website that uses the speedrun.com API to calculate the best players
-                            across
-                            each category</div>
-                        <div class="container" style="padding-top:10px">
-                            <a
-                                href="https://myekul.github.io/combined-leaderboard/?game=cuphead&mode=commBestILs#runRecap">
-                                <div class="button" style="font-family: var(--font2);background-color: mediumpurple;width: 200px;
-    height: 28px;font-size:120%">
-                                    <div><i class="fa fa-history"></i>&nbsp;Run Recap</div>
+                        <div>
+                            <a href="https://myekul.github.io/combined-leaderboard/" class="cuphead"
+                                style="font-family:var(--font2);gap:5px;height:80px">
+                                <img src="https://myekul.github.io/shared-assets/myekul/images/myekul.png"
+                                    class="myekul" style="height:80px;width:auto">
+                                <div>
+                                    <div>COMBINED<br>LEADERBOARD</div>
                                 </div>
                             </a>
+                            <p>...a website that uses the speedrun.com API to calculate the best
+                                players across each category</p>
                         </div>
-
-                        <div class="textBlock">...a tool for processing LiveSplit .lss files and Cuphead .sav files to
-                            gain
-                            insights about recent run performance</div>
+                        <div style="padding-top:10px">
+                            <a href="https://myekul.github.io/combined-leaderboard/?game=cuphead&mode=commBestILs#runRecap"
+                                class="font2 onePointOne"
+                                style="width: 200px;height: 28px;font-size:120%;margin:0 auto">
+                                <div><i class="fa fa-history"></i>&nbsp;Run Recap</div>
+                            </a>
+                            <p>...a tool for processing LiveSplit .lss files and Cuphead .sav files
+                                to gain insights about recent run performance</p>
+                        </div>
                     </div>
                     <div>
-                        <!-- <div>
-                            <a href="https://myekul.github.io/speedrun-resources/">
-                                <div class="button medium" style="font-family:var(--font2);background-color: salmon;">
-                                    <div class="container" style="gap:10px">
-                                        <img src="https://myekul.github.io/speedrun-resources/images/kettle.png"
-                                            style="height:50px;width:auto">
-                                        <div>SPEEDRUN RESOURCES</div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="textBlock">...a hub containing a variety of resources to get started</div>
-                        </div> -->
                         <div>
-                            <a href="https://myekul.github.io/monkey-tool/">
-                                <div class="button medium monkey" style="font-family:var(--font2)">
-                                    <div class="container" style="gap:10px">
-                                        <img src="https://myekul.github.io/monkey-tool/images/monkey.png"
-                                            style="height:50px;width:auto">
-                                        <div>MONKEY TOOL</div>
-                                    </div>
-                                </div>
+                            <a href="https://myekul.github.io/speedrun-resources/" class="font2 nmg">
+                                <img src="https://myekul.github.io/speedrun-resources/images/kettle.png"
+                                    style="height:50px;width:auto">
+                                <div>SPEEDRUN RESOURCES</div>
                             </a>
-                            <div class="textBlock">...a tool for quickly solving the Mr. Chimes memory game in Cuphead
-                            </div>
+                            <p>...a hub containing a variety of resources to get started</p>
                         </div>
                         <div>
-                            <a href="https://myekul.github.io/graveyard-tool/">
-                                <div class="button medium"
-                                    style="font-family:'cuphead-felix';background-color: darkseagreen;">
-                                    <div class="container" style="gap:10px">
-                                        <img src="https://myekul.github.io/graveyard-tool/images/podium.png"
-                                            style="height:60px;width:auto">
-                                        <div>GRAVEYARD TOOL</div>
-                                    </div>
-                                </div>
+                            <a href="https://myekul.github.io/monkey-tool/" class="monkey font2">
+                                <img src="https://myekul.github.io/monkey-tool/images/monkey.png"
+                                    style="height:50px;width:auto">
+                                <div>MONKEY TOOL</div>
                             </a>
-                            <div class="textBlock">...a tool for quickly solving the graveyard puzzle in the Cuphead DLC
-                            </div>
+                            <p>...a tool for quickly solving the Mr. Chimes memory game in
+                                Cuphead
+                            </p>
+                        </div>
+                        <div>
+                            <a href="https://myekul.github.io/graveyard-tool/"
+                                style="font-family:'cuphead-felix';background-color: darkseagreen">
+                                <img src="https://myekul.github.io/graveyard-tool/images/podium.png"
+                                    style="height:60px;width:auto">
+                                <div>GRAVEYARD TOOL</div>
+                            </a>
+                            <p>...a tool for quickly solving the graveyard puzzle in the Cuphead
+                                DLC
+                            </p>
                         </div>
                     </div>
                 </div>
