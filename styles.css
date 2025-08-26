@@ -2,6 +2,7 @@
     --background1: #0c142d;
     --background2: #332944;
     --banner: darkslateblue;
+    --bannerText: var(--cuphead)
 }
 
 body {
