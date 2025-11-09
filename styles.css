@@ -5,16 +5,6 @@
     --bannerText: var(--cuphead)
 }
 
-body {
-    background: var(--background1);
-    /* background-image:
-        radial-gradient(var(--background2) 19.2%, transparent 19.2%),
-        radial-gradient(var(--background2) 19.2%, transparent 19.2%);
-    background-position: 0px 0px, 15px 15px;
-    background-size: 30px 30px;
-    background-color: var(--background1); */
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -23,4 +13,12 @@ main {
 
 p {
     margin: 0
+}
+
+body {
+    background-image: url('bg.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* height: 100vh; */
 }
