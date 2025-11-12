@@ -25,7 +25,7 @@
         </header> -->
         <main>
             <div>
-                <div class="container" style="gap:8px;margin-bottom:50px">
+                <div class="container" style="gap:8px;margin-top:20px">
                     <img src="https://myekul.github.io/shared-assets/images/myekul.png" style="height:150px;width:auto">
                     <div style="margin-bottom:30px;padding-top:20px">
                         <div style="font-size:120%;transform:translate(0px, 10px);">the</div>
@@ -33,77 +33,139 @@
                         <div style="text-align:right;font-size:120%;transform:translate(0px, -5px)">project</div>
                     </div>
                 </div>
-                <div id='resources'>
-                    <div>
+                <div class="sticky" style="margin-bottom:30px">
+                    <div id="tabsDiv"></div>
+                </div>
+                <div id="homeTab" class="tab">
+                    <div id='resources'>
                         <div>
-                            <a href="https://myekul.github.io/myekuldex/"
-                                style="font-weight:bold;font-size:150%;background-color: royalblue;color:white">
-                                <img src="https://myekul.github.io/myekuldex/images/favicon.png"
-                                    style="height:50px;width:auto">
-                                <div>myekuldex</div>
-                            </a>
-                            <p>...a website for appreciating Pokemon</p>
+                            <div>
+                                <a href="https://myekul.github.io/myekuldex/"
+                                    style="font-weight:bold;font-size:150%;background-color: royalblue;color:white">
+                                    <img src="https://myekul.github.io/myekuldex/images/favicon.png"
+                                        style="height:50px;width:auto">
+                                    <div>myekuldex</div>
+                                </a>
+                                <p>...a website for appreciating Pokemon</p>
+                            </div>
+                            <div>
+                                <a href="https://myekul.github.io/pikmin-place/"
+                                    style="font-weight:bold;font-size:160%;background-color: limegreen;color:white;text-shadow: 2px 2px 2px black;font-family:'pikmin'">
+                                    <img src="https://myekul.github.io/pikmin-place/images/favicon.png"
+                                        style="height:50px;width:auto">
+                                    <div>Pikmin Place</div>
+                                </a>
+                                <p>...a website for appreciating Pikmin</p>
+                            </div>
                         </div>
                         <div>
-                            <a href="https://myekul.github.io/pikmin-place/"
-                                style="font-weight:bold;font-size:160%;background-color: limegreen;color:white;text-shadow: 2px 2px 2px black;font-family:'pikmin'">
-                                <img src="https://myekul.github.io/pikmin-place/images/favicon.png"
-                                    style="height:50px;width:auto">
-                                <div>Pikmin Place</div>
-                            </a>
-                            <p>...a website for appreciating Pikmin</p>
+                            <div>
+                                <a href="https://myekul.github.io/combined-leaderboard/" class="cuphead"
+                                    style="font-family:var(--font2);gap:5px;height:80px">
+                                    <img src="https://myekul.github.io/shared-assets/images/myekul.png" class="myekul"
+                                        style="height:80px;width:auto">
+                                    <div>
+                                        <div>COMBINED<br>LEADERBOARD</div>
+                                    </div>
+                                </a>
+                                <p>...a website that uses the speedrun.com API to calculate the best
+                                    players across each category</p>
+                            </div>
+                            <div>
+                                <a href="https://myekul.github.io/runner-resources/" class="font2 nmg">
+                                    <img src="https://myekul.github.io/runner-resources/images/kettle.png"
+                                        style="height:50px;width:auto">
+                                    <div style="font-size:110%">RUNNER RESOURCES</div>
+                                </a>
+                                <p>...a hub containing a variety of resources to get started</p>
+                            </div>
+                            <div>
+                                <a id='runRecap' href="https://myekul.github.io/run-recap" class="font2 onePointOne">
+                                    <img src="https://myekul.github.io/run-recap/images/favicon.png"
+                                        style="height:50px;width:auto">
+                                    <div style="font-size:120%;margin-right:10px">RUN RECAP</div>
+                                </a>
+                                <p>...a tool for processing Cuphead .sav files and LiveSplit .lss files
+                                    to gain insights about recent run performance</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <a href="https://myekul.github.io/star-haven/"
+                                    style="font-weight:bold;font-size:160%;background-color: yellow;color:black">
+                                    <img src="https://myekul.github.io/star-haven/images/favicon.png"
+                                        style="height:50px;width:auto">
+                                    <div class="font2">Star Haven</div>
+                                </a>
+                                <p>...a website for appreciating Super Mario 64</p>
+                            </div>
+                            <div>
+                                <a href="https://myekul.github.io/roster-realm/"
+                                    style="font-size:150%;font-family:'FOT';background-color: darkgray;">
+                                    <img src="https://myekul.github.io/roster-realm/images/favicon.png"
+                                        style="height:40px;width:auto">
+                                    <div>Roster Realm</div>
+                                </a>
+                                <p>...a website for viewing Smash Bros. rosters across the series</p>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <a href="https://myekul.github.io/combined-leaderboard/" class="cuphead"
-                                style="font-family:var(--font2);gap:5px;height:80px">
-                                <img src="https://myekul.github.io/shared-assets/images/myekul.png" class="myekul"
-                                    style="height:80px;width:auto">
-                                <div>
-                                    <div>COMBINED<br>LEADERBOARD</div>
-                                </div>
-                            </a>
-                            <p>...a website that uses the speedrun.com API to calculate the best
-                                players across each category</p>
-                        </div>
-                        <div>
-                            <a href="https://myekul.github.io/runner-resources/" class="font2 nmg">
-                                <img src="https://myekul.github.io/runner-resources/images/kettle.png"
-                                    style="height:50px;width:auto">
-                                <div style="font-size:110%">RUNNER RESOURCES</div>
-                            </a>
-                            <p>...a hub containing a variety of resources to get started</p>
-                        </div>
-                        <div>
-                            <a id='runRecap' href="https://myekul.github.io/run-recap" class="font2 onePointOne">
-                                <img src="https://myekul.github.io/run-recap/images/favicon.png"
-                                    style="height:50px;width:auto">
-                                <div style="font-size:120%;margin-right:10px">RUN RECAP</div>
-                            </a>
-                            <p>...a tool for processing Cuphead .sav files and LiveSplit .lss files
-                                to gain insights about recent run performance</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="https://myekul.github.io/star-haven/"
-                                style="font-weight:bold;font-size:160%;background-color: yellow;color:black">
-                                <img src="https://myekul.github.io/star-haven/images/favicon.png"
-                                    style="height:50px;width:auto">
-                                <div class="font2">Star Haven</div>
-                            </a>
-                            <p>...a website for appreciating Super Mario 64</p>
-                        </div>
-                        <div>
-                            <a href="https://myekul.github.io/roster-realm/"
-                                style="font-size:150%;font-family:'FOT';background-color: darkgray;">
-                                <img src="https://myekul.github.io/roster-realm/images/favicon.png"
-                                    style="height:40px;width:auto">
-                                <div>Roster Realm</div>
-                            </a>
-                            <p>...a website for viewing Smash Bros. rosters across the series</p>
-                        </div>
+                </div>
+                <!-- <div class="container">
+                <img src="https://myekul.github.io/shared-assets/images/myekul.png" style="height:50px;width:auto">
+            </div> -->
+                <div id='infoTab' class="container tab" style="width:500px">
+                    <div style="width:500px">
+                        Hello! My name is <span class="myekulColor">myekul</span>. I am a web developer with a passion
+                        for
+                        building expansive static sites
+                        from raw <span class="myekulColor">HTML/CSS/JavaScript</span>.
+                        <br><br>
+                        ~
+                        <br><br>
+                        As a teenager in the mid-2010s, my hobbies included making music, playing video games, and...
+                        <span class="myekulColor">creating spreadsheets</span>.
+                        Something about it was very theraputic.
+                        As the world grew more and more complex, it felt like I needed a way to keep track of various
+                        aspects of my life.
+                        So I compiled datasets and crafted aesthetically-pleasing spreadsheets out of them.
+                        <br><br>
+                        With spreadsheets, I kept track of the movies I watched, my favorite video games, my school
+                        grades,
+                        and every song I listened to.
+                        I even had a spreadsheet documenting the duration of my daily showers for an entire year.
+                        All of these datasets were accompanied by extravagant charts and graphs. <span
+                            class="myekulColor">It brought me joy.</span>
+                        <br><br>
+                        ~
+                        <br><br>
+                        I studied programming in college and earned my bachelor's degree in computer science in 2024.
+                        During undergrad in August 2021, I started speedrunning Cuphead in my downtime,
+                        and found it incredibly captivating. Consumed by academics and social life, I only had the time
+                        and
+                        energy to speedrun individual bosses.
+                        So I made the most of it.
+                        <br><br>
+                        Over the course of 3 years, I managed to beat or tie every IL world record on every ground boss
+                        on
+                        the current patch of Cuphead.
+                        That's <span class="myekulColor">108/108</span> world records.
+                        Naturally, I had to keep track of these accomplishments in a spreadsheet. So I did.
+                        <br><br>
+                        With all of the data I accumulated, I was starting to feel limited by spreadsheets.
+                        I knew I could develop powerful dynamic websites if I just learned how,
+                        so I started taking <span class="myekulColor">web development</span> courses.
+                        I learned a ton, but nothing motivated me more than my dream to make a website for the Cuphead
+                        speedrunning community.
+                        <br><br>
+                        ~
+                        <br><br>
+                        After I graduated, I suddenly had all the time in the world.
+                        So I put my skills to use and developed several projects, one of them being the <span
+                            class="myekulColor">Combined Leaderboard</span>.
+                        It was a huge success, and it brought joy to the many people who used it.
+                        <br><br>
+                        This was the start of <span class="myekulColor">the myekul project</span>.
                     </div>
                 </div>
             </div>

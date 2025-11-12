@@ -1,6 +1,6 @@
 :root {
     --background1: #0c142d;
-    --background2: #332944;
+    --background2: darkslateblue;
     --banner: darkslateblue;
     --bannerText: var(--cuphead)
 }
@@ -18,7 +18,16 @@ p {
 body {
     background-image: url('bg.png');
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* height: 100vh; */
+    background-color: #0c142d;
+    height: 100vh;
+}
+
+#tabsDiv {
+    width: 100px;
+    margin: 0 auto;
+}
+
+#tabs .button {
+    color: var(--cuphead);
+    background-color: var(--background1);
 }
