@@ -23,11 +23,15 @@ body {
 }
 
 #tabsDiv {
-    width: 100px;
     margin: 0 auto;
 }
 
 #tabs .button {
     color: var(--cuphead);
     background-color: var(--background1);
+}
+
+header{
+    background-color: transparent;
+    height:170px
 }

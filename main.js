@@ -3,7 +3,7 @@ allTabs.forEach(elem => {
     hide(elem)
 })
 setFooter('2025')
-setTabs(['home', 'info'])
+setTabs(['home', 'info', null, 'ballpit'])
 initializeHash('home')
 action()
 setResources()
@@ -15,6 +15,7 @@ function action() {
     allTabs.forEach(tab => {
         hide(tab)
     })
+    hide('content')
     switch (globalTab) {
         case 'home':
             show('homeTab')
@@ -22,5 +23,26 @@ function action() {
         case 'info':
             show('infoTab')
             break
+        case 'ballpit':
+            show('content')
+            generateBallpit()
+            break
     }
+}
+function generateBallpit() {
+    document.getElementById('content').innerHTML = `<div id='ballpit'></div>`
+    websites = [
+        ['myekuldex', 'royalblue'],
+        ['pikmin-place', 'limegreen'],
+        ['run-recap', 'mediumpurple'],
+        ['star-haven', 'yellow'],
+        ['roster-realm', 'darkgray']
+    ]
+    let HTMLContent = ''
+    HTMLContent += `<div class='ball cuphead container' style='border-radius:50%;height:100px;width:100px'><img src="https://myekul.github.io/shared-assets/images/myekul.png" style='height:80px'></div>`
+    HTMLContent += `<div class='ball nmg container' style='border-radius:50%;height:100px;width:100px'><img src="https://myekul.github.io/runner-resources/images/kettle.png" style='height:80px'></div>`
+    websites.forEach(website => {
+        HTMLContent += `<div class='ball container' style='background-color:${website[1]};border-radius:50%;height:100px;width:100px'><img src="https://myekul.github.io/${website[0]}/images/favicon.png" style='height:80px'></div>`
+    })
+    setBallpit(HTMLContent)
 }
