@@ -35,11 +35,11 @@ function generateBallpit() {
         ['myekuldex', 'royalblue'],
         ['pikmin-place', 'limegreen'],
         ['run-recap', 'mediumpurple'],
-        ['star-haven', 'yellow'],
+        ['star-haven', 'deepskyblue'],
         ['roster-realm', 'darkgray']
     ]
     let HTMLContent = ''
-    HTMLContent += `<div class='ball cuphead container' style='border-radius:50%;height:100px;width:100px'><img src="https://myekul.github.io/shared-assets/images/myekul.png" style='height:80px'></div>`
+    HTMLContent += `<div class='ball cuphead container' style='border-radius:50%;height:100px;width:100px'><img src="https://myekul.github.io/shared-assets/images/myekul.png" class='myekul' style='height:80px;width:auto'></div>`
     HTMLContent += `<div class='ball nmg container' style='border-radius:50%;height:100px;width:100px'><img src="https://myekul.github.io/runner-resources/images/kettle.png" style='height:80px'></div>`
     websites.forEach(website => {
         HTMLContent += `<div class='ball container' style='background-color:${website[1]};border-radius:50%;height:100px;width:100px'><img src="https://myekul.github.io/${website[0]}/images/favicon.png" style='height:80px'></div>`

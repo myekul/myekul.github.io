@@ -31,7 +31,15 @@ body {
     background-color: var(--background1);
 }
 
-header{
+header {
     background-color: transparent;
-    height:170px
+    height: 170px
+}
+
+#starHaven {
+    filter: drop-shadow(1px 1.5px 0 brown);
+    background: linear-gradient(to bottom, orangered, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
