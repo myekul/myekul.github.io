@@ -3,7 +3,7 @@ allTabs.forEach(elem => {
     hide(elem)
 })
 setFooter('2025')
-setTabs(['home', 'info', null, 'ballpit'])
+setTabs(['info', 'home', null, 'ballpit'])
 initializeHash('home')
 action()
 setResources()
