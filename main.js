@@ -2,7 +2,7 @@ const allTabs = document.querySelectorAll('.tab')
 allTabs.forEach(elem => {
     hide(elem)
 })
-setFooter('2025')
+setFooter(2024)
 setTabs(['info', 'home', null, 'ballpit'])
 initializeHash('home')
 action()
