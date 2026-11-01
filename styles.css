@@ -16,10 +16,14 @@ p {
 }
 
 body {
-    background-image: url('bg.png');
+    background-image: url('bg.jpg');
     background-size: cover;
     background-color: #0c142d;
     height: 100vh;
+}
+
+#tabs {
+    width: 300px !important
 }
 
 #tabsDiv {
@@ -42,4 +46,85 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+#cupheadButton .cupheadIcon {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    mask: url('https://myekul.com/shared-assets/cuphead/images/extra/sav.png') no-repeat center/contain;
+    -webkit-mask: url('https://myekul.com/shared-assets/cuphead/images/extra/sav.png') no-repeat center/contain;
+    background-color: currentColor;
+}
+
+#cupheadTab iframe {
+    position: absolute;
+    left: 50%;
+    top: -200px;
+    transform: translateX(-50%) scale(0.4);
+    width: 1400px;
+    height: 800px
+}
+
+.adventure-map {
+    height: var(--map-height, 120px);
+    background-color: var(--cuphead);
+    mask: var(--map) no-repeat center / contain;
+    -webkit-mask: var(--map) no-repeat center / contain;
+}
+
+.adventure-map.italy {
+    --map: url('svg/italy.svg');
+    --map-height: 250px;
+    aspect-ratio: 1;
+}
+
+.adventure-map.germany {
+    --map: url('svg/germany.svg');
+    --map-height: 180px;
+    aspect-ratio: 1;
+}
+
+.adventure-map.uk {
+    --map: url('svg/uk.svg');
+    --map-height: 200px;
+    aspect-ratio: 185.86 / 288.884;
+    margin-left: 50px;
+    margin-right: 60px
+}
+
+.adventure-map.tennessee {
+    --map: url('svg/tennessee.svg');
+    --map-height: 35px;
+    aspect-ratio: 800 / 156.8;
+}
+
+.adventure-map.newyork {
+    --map: url('svg/newyork.svg');
+    --map-height: 100px;
+    aspect-ratio: 800 / 457.6;
+}
+
+.adventureTitles {
+    gap: 40px;
+    font-family: var(--font2);
+    margin-bottom: 20px;
+    filter: brightness(0.5)
+}
+
+.adventureTitles div {
+    width: 180px;
+    text-align: center;
+}
+
+#cupheadButtons button {
+    width: 120px;
+    color: var(--bannerText);
+    background-color: var(--banner);
+}
+
+.combined-leaderboard a div {
+    text-shadow: 1.5px 1.5px black;
+    color: white !important;
+    -webkit-text-stroke: 1px black
 }
